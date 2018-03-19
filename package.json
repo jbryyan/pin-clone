@@ -2,7 +2,7 @@
   "name": "redux-pin",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jbryyan.github.io/redux-pin/",
+  "homepage": "https://jbryyan.github.io/pin-clone/",
   "dependencies": {
     "bcrypt": "^1.0.3",
     "cors": "^2.8.4",
