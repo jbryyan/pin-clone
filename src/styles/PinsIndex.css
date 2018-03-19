@@ -1,0 +1,48 @@
+.masonryCss{
+  margin: 0 auto;
+  margin-top: 80px;
+ }
+ 
+ .masonryCss .ui.card{
+   width: 234px;
+   position: relative;
+   margin: 0;
+ }
+ 
+ .masonryCss .cardButton{
+   display: inline-block;
+   outline-offset: -3px;
+   padding: 15px;
+   background-color: white;
+   border-radius: 5px;
+ }
+ 
+ .masonryCss .cardButton:hover{
+   background-color: #F2F2F2;
+ }
+ 
+ .masonryCss .cardButton:hover .ui.card{
+   filter: brightness(70%);
+   transition: 1000ms linear;
+   cursor: zoom-in !important;
+ }
+ 
+ .masonryCss .ui.button{
+   position: absolute;
+   top: 20px;
+   right: 20px;
+   visibility: hidden;
+ }
+ 
+ .masonryCss .cardButton:hover .ui.button{
+   visibility: visible;
+ }
+ 
+ .masonryCss .link{
+   visibility: hidden;
+   padding: 2px;
+ }
+ 
+ .masonryCss .cardButton:hover .link{
+   visibility: visible;
+ }

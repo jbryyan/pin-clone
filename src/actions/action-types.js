@@ -1,0 +1,14 @@
+export const ADD_PIN = 'add_pin';
+export const FETCH_PINS = 'fetch_pins';
+export const FETCH_PIN = 'fetch_pin';
+export const FETCH_USER_PINS = 'fetch_user_pins';
+export const AUTH_USER = 'auth_user';
+export const LOGIN_USER = 'login_user';
+export const REGISTER_USER = 'register_user';
+export const REG_SUCCESS = 'reg_success';
+export const LOGOUT_USER = 'logout_user';
+export const SAVE_PIN = 'save_pin';
+export const DELETE_PIN = 'delete_pin';
+export const LOADING_PIN = 'loading_pin';
+export const LOADING_USER = 'loading_user';
+export const ROOT_URL = 'https://redux-pin.glitch.me/';

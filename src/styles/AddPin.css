@@ -1,0 +1,42 @@
+.modal-description{
+  width: 100% !important;
+}
+
+.ui.active.dimmer.modals.transition {
+  display: flex !important;
+  display: -ms-flexbox !important;
+}
+
+.add-card{
+  display: inline-block;
+  outline-offset: -3px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 5px;
+  height: 270px;
+  width: 236;
+}
+
+.add-card .ui.card{
+  width: 234px;
+  height: 234px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #EFEFEF;
+
+}
+
+.add-card:hover{
+  background-color: #efefef;;
+}
+
+.add-card p{
+
+  font-size: 15px;
+  font-weight: bold;
+  color: #b5b5b5;
+}
+

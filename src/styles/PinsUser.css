@@ -1,0 +1,57 @@
+.user-container{
+  padding-top: 100px;
+}
+
+.user-name {
+  font-size: 48px;
+  font-weight: bold;
+  color: #555555;
+}
+
+.masonry-css{
+  padding-left: 30px !important;
+ }
+ 
+ .masonry-css .ui.card{
+   width: 234px;
+   position: relative;
+   margin: 0;
+ }
+ 
+ .masonry-css .cardButton{
+   display: inline-block;
+   outline-offset: -3px;
+   padding: 15px;
+   background-color: white;
+   border-radius: 5px;
+ }
+ 
+ .masonry-css .cardButton:hover{
+   background-color: #F2F2F2;
+ }
+ 
+ .masonry-css .cardButton:hover .ui.card{
+   filter: brightness(70%);
+   transition: 1000ms linear;
+   cursor: zoom-in !important;
+ }
+ 
+ .masonry-css .ui.button{
+   position: absolute;
+   top: 20px;
+   right: 20px;
+   visibility: hidden;
+ }
+ 
+ .masonry-css .cardButton:hover .ui.button{
+   visibility: visible;
+ }
+ 
+ .masonry-css .link{
+   visibility: hidden;
+   padding: 2px;
+ }
+ 
+ .masonry-css .cardButton:hover .link{
+   visibility: visible;
+ }
