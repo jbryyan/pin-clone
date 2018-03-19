@@ -18,7 +18,7 @@ const reduxBrowser = window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTO
 
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers, reduxBrowser)}>
-    <BrowserRouter basename='/redux-pin'>
+    <BrowserRouter basename='/pin-clone'>
       <div>
         <Navbar/>
           <Switch>
