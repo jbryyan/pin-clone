@@ -11,4 +11,4 @@ export const SAVE_PIN = 'save_pin';
 export const DELETE_PIN = 'delete_pin';
 export const LOADING_PIN = 'loading_pin';
 export const LOADING_USER = 'loading_user';
-export const ROOT_URL = 'https://redux-pin.glitch.me/';
+export const ROOT_URL = 'https://redux-pin.glitch.me';
